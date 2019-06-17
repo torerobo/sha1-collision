@@ -1,5 +1,5 @@
 #! coding:utf-8
-# SHA-1衝突PDFを自動生成するスクリプト
+# SHA-1 
 
 import sys
 from Crypto.Util.number import bytes_to_long as b2l
@@ -7,9 +7,8 @@ from Crypto.Util.number import long_to_bytes as l2b
 
 
 def main():
-    # コマンドライン引数でファイル名とか受け取る
-    if len(sys.argv) != 3:
-        print "Usage : python collision.py <衝突PDF1に使うJPG画像> <衝突pdf2に使うJPG画像>"
+        if len(sys.argv) != 3:
+        print "Usage : python collision.py 
         sys.exit(1)
 
     # 引数のファイルがJPGかどうか確認
